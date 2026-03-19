@@ -1,0 +1,27 @@
+# Build output
+/bin/
+/obj/
+
+# Visual Studio / Rider user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+*.cache
+*.log
+*.tmp
+
+# Entity Framework migrations (if present)
+Migrations/
+
+# Environment variables / secrets (if you add them)
+.env
+.env.*
+**/.env
+**/.env.*
+
+# If you generate runtime config locally
+appsettings.local.json
+**/appsettings.local.json
